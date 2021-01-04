@@ -9,7 +9,7 @@ A fun project disassembling and understanding a Vodafone TG3442DE cable router.
 
 ## Hardware
 
-For Hadware-Identification see: [Hardware.md](./Hadware.md)
+For Hadware-Identification see: [Hardware.md](./Hardware.md)
 
 | Information:  | Description: |
 |:--------------|:-------------|
