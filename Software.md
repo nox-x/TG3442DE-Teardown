@@ -2,6 +2,42 @@
 
 Latest firmware in Germany according to web interface is _AR01.02.068.11_092320_711.SIP.10 (01.02.068.11.EURO.SIP)_ as of 01/17/2021.
 
+The following table lists details on the firmware versions and links to additional resources, like for example the source code and manual.
+
+| Firmware              | Source                                                                                      | Manual |
+| :-------------------- | :------------------------------------------------------------------------------------------ | ------ |
+| 01.02.068.11.EURO.SIP | N/A                                                                                         | N/A    |
+| 01.02.025             | https://sourceforge.net/projects/tg3442de.arris/files/TG3442DE_AR.01.02.025.tar.gz/download | N/A    |
+
+# Software
+
+Software is maintained by the cable service provider and will be pushed to the devices over DOCSIS management options. The source code for the firmware is released to Sourceforge and can be downloaded [here](https://sourceforge.net/arris/tg3442de/home/Home/).
+
+## Installation of source code
+
+This section explains how you can grab the source code and compile it to a working firmware image.
+
+### Prerequirements for installation
+
+- Firmware source code
+- [Yocto/BitBake build system](https://www.yoctoproject.org/docs/1.6/mega-manual/mega-manual.html)
+
+### Download of source code
+
+The easiest way to download the software is via wget or curl
+
+`wget https://sourceforge.net/projects/tg3442de.arris/files/latest/download`
+
+or
+
+`curl -L https://sourceforge.net/projects/tg3442de.arris/files/latest/download > source.tar.gz`
+
+After the download, decompress the source code via tar command.
+
+`tar xvfz source.tar.gz`
+
+The source will be decompressed to a subfolder.
+
 # Webinterface
 
 The router runs a lighthttpd service with a web gui. After login the webinterface features following main options
@@ -17,7 +53,7 @@ The router runs a lighthttpd service with a web gui. After login the webinterfac
 
 The information on used open source components lists following components
 
-| Modulname                             | Modulversion          |
+| Module                                | Version               |
 | :------------------------------------ | :-------------------- |
 | acpid                                 | 2.0.23                |
 | ajaxfileupload.js                     |                       |
