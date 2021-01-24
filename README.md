@@ -1,6 +1,6 @@
 # TG3442DE Teardown
 
-A fun project disassembling and understanding a Vodafone TG3442DE cable router (aka Arris Touchstone TG3442).
+A fun project disassembling and understanding a Vodafone TG3442DE cable router (aka `Arris Touchstone TG3442`: [commscope.com product page](https://www.commscope.com/product-type/broadband-video-devices/broadband-devices/docsis-3.1-gateways-modems/tg3442/)).
 
 ## Goals
 
