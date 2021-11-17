@@ -15,6 +15,8 @@
 9. ???maybe the Ethernet chipset/driver/controller??? [FIXME: identify the chip and place some refs]
 10. Subscriber Line IC
 11. eMMC
+12. SPI Bios chip [as mentioned by @arrobazo](https://github.com/nox-x/TG3442DE-Teardown/issues/3#issuecomment-874434710)
+13. 2Bit Logic Level shifter [as mentioned by @arrobazo](https://github.com/nox-x/TG3442DE-Teardown/issues/3#issuecomment-874434710)
 
 ![PCB front panel (marked)](img/pcb_front_marked.png)
 ![PCB back panel (marked)](img/pcb_back_marked.png)
@@ -140,5 +142,29 @@
   <summary>Photo</summary>
 
 ![eMMC IC](img/pcb_back_eMMC.png)
+
+</details>
+
+### SPI Bios
+
+`Macronix MX25U3235FBAI-10G` Serial Multi I/O NOR Flash memory ([product page](https://www.mxic.com.tw/en-us/products/NOR-Flash/Serial-NOR-Flash/Pages/spec.aspx?p=MX25U3235F&m=Serial+NOR+Flash&n=PM1977))
+
+<details>
+  <summary>Photo</summary>
+
+![SPI Bios IC](img/) FIXME: Link broken
+
+</details>
+
+### 2Bit Logic Level shifter
+
+`Texas Instruments SN74AVC2T245RSWR` Dual-Bit, 2-DIR pin Dual-Supply Bus Transceiver w/ Configurable Voltage Translation ([product page](https://www.ti.com/store/ti/en/p/product/?p=SN74AVC2T245RSWR))
+[As mentioned by @arrobazo](https://github.com/nox-x/TG3442DE-Teardown/issues/3#issuecomment-874434710) shifting 1V8 TTL to 3V3 level of the ATOM core console interface.
+Not normally shipped with OEM setups (see Photo).
+
+<details>
+  <summary>Photo</summary>
+
+![Bus Transciever](img/) FIXME: Link broken
 
 </details>
