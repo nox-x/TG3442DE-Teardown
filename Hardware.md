@@ -152,7 +152,7 @@
 <details>
   <summary>Photo</summary>
 
-![SPI Bios IC](img/) FIXME: Link broken
+![SPI Bios IC](img/pcb_front_bios_spi.png)
 
 </details>
 
@@ -165,6 +165,6 @@ Not normally shipped with OEM setups (see Photo).
 <details>
   <summary>Photo</summary>
 
-![Bus Transciever](img/) FIXME: Link broken
+![Bus Transciever](img/pcb_front_console_lls.png)
 
 </details>
