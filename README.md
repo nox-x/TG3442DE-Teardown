@@ -9,7 +9,7 @@ A fun project disassembling and understanding a Vodafone TG3442DE cable router (
 
 ## Hardware
 
-For Hardware-Identification see: [Hardware.md](./Hardware.md)
+For Hardware-Identification see: [Hardware.md](./Hardware.md) NOTE: There are 2 known versions of the modem, `MP1` and `MP2`. For the latter, see [vMP2/Hardware.md](./vMP2/Hardware.md).
 
 | Information:               | Description:                                                                                                                                                                                                              |
 | :------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
